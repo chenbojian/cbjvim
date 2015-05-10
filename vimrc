@@ -4,6 +4,9 @@ filetype off
 set rtp+=~/vimfiles/bundle/vundle/
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'Yggdroot/indentLine'
 call vundle#end()
 filetype plugin indent on
 
