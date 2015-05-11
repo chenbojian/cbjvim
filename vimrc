@@ -6,7 +6,8 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
-Plugin 'Yggdroot/indentLine'
+"Plugin 'Yggdroot/indentLine'
+Plugin 'nathanaelkane/vim-indent-guides'
 call vundle#end()
 filetype plugin indent on
 
@@ -52,6 +53,8 @@ set columns=120
 color cbjcolor 
 set guifont=consolas:h11
 set guifontwide=楷体:h12
+"自动加载indent_guides
+let g:indent_guides_enable_on_vim_startup=1
 
 set diffexpr=MyDiff()
 function MyDiff()
