@@ -39,3 +39,6 @@ set softtabstop=4
 set tabstop=4 
 color cbjcolor 
 let g:indent_guides_enable_on_vim_startup=1
+let g:indent_guides_auto_colors = 0
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd guibg=grey15 ctermbg=235
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=grey8 ctermbg=233

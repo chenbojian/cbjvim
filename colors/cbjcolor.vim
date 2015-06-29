@@ -6,6 +6,7 @@
 
 " First remove all existing highlighting.
 set background=dark
+set t_Co=256
 hi clear
 if exists("syntax_on")
   syntax reset
@@ -13,7 +14,7 @@ endif
 
 let colors_name = "cbjcolor"
 
-hi Normal ctermbg=black ctermfg=White guifg=White guibg=grey0 
+hi Normal ctermbg=16 ctermfg=White guifg=White guibg=grey0 
 "grey20
 
 " Groups used in the 'highlight' and 'guicursor' options default value.
