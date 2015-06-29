@@ -1,7 +1,11 @@
 set nocompatible
 syntax on
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+if has("win32")
+    set rtp+=~/vimfiles/bundle/vundle/
+else
+    set rtp+=~/.vim/bundle/vundle/
+endif
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'godlygeek/tabular'
