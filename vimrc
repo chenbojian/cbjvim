@@ -27,6 +27,8 @@ if has("win32")
     language message zh_CN.utf-8
     set termencoding=chinese
     set langmenu=zh_CN.UTF-8
+else
+    set undodir = "/tmp/"
 endif
 syntax enable
 syntax on
