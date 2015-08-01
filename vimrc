@@ -30,6 +30,7 @@ if has("win32")
     set langmenu=zh_CN.UTF-8
 else
     set undodir = "/tmp/"
+
 endif
 syntax enable
 syntax on
