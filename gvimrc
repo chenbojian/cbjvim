@@ -1,6 +1,6 @@
 if has ("gui_gtk2")
     set guifont=Droid\ Sans\ Mono\ 11
-else
+elseif has("gui_win32")
     set guifont=consolas:h11
     set guifontwide=KaiTi:h12
 endif
