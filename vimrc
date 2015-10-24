@@ -13,6 +13,7 @@ Plugin 'plasticboy/vim-markdown'
 "Plugin 'Yggdroot/indentLine'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'othree/xml.vim'
+Plugin 'mattn/emmet-vim'
 call vundle#end()
 filetype plugin indent on
 set nu
