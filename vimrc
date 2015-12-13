@@ -14,6 +14,7 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'othree/xml.vim'
 Plugin 'mattn/emmet-vim'
+Plugin 'leafgarland/typescript-vim'
 call vundle#end()
 filetype plugin indent on
 set nu
