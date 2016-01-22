@@ -19,12 +19,18 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'myusuf3/numbers.vim'
 if has("win32")
 else
+Plugin 'aceofall/gtags.vim'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
+set cscopetag
+set cscopeprg='gtags-cscope'
+let GtagsCscope_Auto_Load = 1
+let CtagsCscope_Auto_Map = 1
+let GtagsCscope_Quiet = 1
 endif
 call vundle#end()
 filetype plugin indent on
