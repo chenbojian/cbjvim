@@ -19,14 +19,15 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'myusuf3/numbers.vim'
 if has("win32")
 else
-"Plugin 'SirVer/ultisnips'
-"Plugin 'honza/vim-snippets'
-"let g:UltiSnipsExpandTrigger="<tab>"
-"let g:UltiSnipsJumpForwardTrigger="<c-b>"
-"let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-"let g:UltiSnipsEditSplit="vertical"
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
+let g:UltiSnipsExpandTrigger="<c-i>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsEditSplit="vertical"
 endif
 call vundle#end()
+
 filetype plugin indent on
 set nu
 source $VIMRUNTIME/vimrc_example.vim
@@ -50,6 +51,13 @@ syntax on
 filetype on
 filetype plugin on
 filetype plugin indent on
+"gtags
+set cscopetag
+set cscopeprg='gtags-cscope'
+let GtagsCscope_Auto_Load = 1
+let GtagsCscope_Auto_Map = 1
+let GtagsCscope_Quiet= 1
+
 set nobackup
 set autoindent
 set smartindent
