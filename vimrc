@@ -59,6 +59,9 @@ let GtagsCscope_Auto_Map = 1
 let GtagsCscope_Quiet= 1
 
 set nobackup
+set viminfo='20,<50,s10
+set ignorecase
+set smartcase
 set autoindent
 set smartindent
 set cindent
