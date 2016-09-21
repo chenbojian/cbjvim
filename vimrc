@@ -17,6 +17,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'myusuf3/numbers.vim'
+Plugin 'ntpeters/vim-better-whitespace'
 call vundle#end()
 
 filetype plugin indent on
@@ -56,10 +57,10 @@ set smartcase
 set autoindent
 set smartindent
 set cindent
-set expandtab 
-set shiftwidth=4 
-set softtabstop=4 
-set tabstop=4 
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
 color monokai
 let g:indent_guides_enable_on_vim_startup=1
 "let g:indent_guides_auto_colors = 0
