@@ -6,5 +6,5 @@ elseif has("gui_win32")
 endif
 "color cbjcolor
 set lines=50
-set columns=120
+set columns=180
 
