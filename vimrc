@@ -14,13 +14,9 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'othree/xml.vim'
 Plugin 'mattn/emmet-vim'
-Plugin 'leafgarland/typescript-vim'
-Plugin 'pangloss/vim-javascript'
 Plugin 'myusuf3/numbers.vim'
-Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 
 filetype plugin indent on
@@ -72,6 +68,3 @@ let g:indent_guides_enable_on_vim_startup=1
 "au BufNewFile,BufRead *.ejs setf html
 nnoremap gb :ls<CR>:b<Space>
 map <C-n> :NERDTreeToggle<CR>
-nnoremap <leader>jd :YcmCompleter GoTo<CR>
-
-set completeopt-=preview
