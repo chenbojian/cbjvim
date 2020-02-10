@@ -11,8 +11,6 @@ set history=500
 filetype plugin on
 filetype indent on
 
-set autoread
-
 let mapleader = ","
 
 set scrolloff=7
@@ -67,8 +65,6 @@ if has("gui_macvim")
 endif
 
 syntax enable
-
-color monokai
 
 set nu
 
@@ -145,7 +141,12 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'myusuf3/numbers.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'prabirshrestha/async.vim'
+Plugin 'prabirshrestha/vim-lsp'
+Plugin 'mattn/vim-lsp-settings'
 call vundle#end()
 
 nnoremap gb :ls<CR>:b<Space>
 map <C-n> :NERDTreeToggle<CR>
+
+color molokai
