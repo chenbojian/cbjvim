@@ -148,5 +148,6 @@ call vundle#end()
 
 nnoremap gb :ls<CR>:b<Space>
 map <C-n> :NERDTreeToggle<CR>
+nnoremap <Leader>p "+p
 
 color molokai
